@@ -34,3 +34,4 @@ export interface BindingConstructor<T> {
 }
 
 export const Github = GitHubBinding as BindingConstructor<BindingInstance>
+export { default as Schema } from './schema'
